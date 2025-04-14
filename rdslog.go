@@ -2,6 +2,7 @@ package rdslog
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -73,6 +74,18 @@ func (client *Client) DownloadCompleteLogFile(ctx context.Context, dst io.Writer
 	}
 
 	defer res.Body.Close()
+
+	if res.StatusCode != http.StatusOK {
+		errmsg := res.Status
+		body, _ := io.ReadAll(res.Body)
+
+		if len(body) >= 0 {
+			errmsg += ": " + string(body)
+		}
+
+		return errors.New(errmsg)
+	}
+
 	_, err = io.Copy(dst, res.Body)
 
 	return err
