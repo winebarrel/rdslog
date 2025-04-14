@@ -3,7 +3,7 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - main: ./cmd/rdsauth
+  - main: ./cmd/rdslog
     ldflags:
       - -X main.version={{.Version}}
     env:
