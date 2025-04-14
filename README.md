@@ -1,10 +1,10 @@
 # rdslog
 
-[![CI](https://github.com/kanmu/rdslog/actions/workflows/ci.yml/badge.svg)](https://github.com/kanmu/rdslog/actions/workflows/ci.yml)
+[![CI](https://github.com/winebarrel/rdslog/actions/workflows/ci.yml/badge.svg)](https://github.com/winebarrel/rdslog/actions/workflows/ci.yml)
 
 rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.
 
-see http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RESTReference.html ([archive](https://web.archive.org/web/20171212085731/http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RESTReference.html))
+see [reference(archive)](https://web.archive.org/web/20171212085731/http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RESTReference.html).
 
 ## Download
 
