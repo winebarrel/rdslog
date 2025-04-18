@@ -105,6 +105,10 @@ func (client *Client) newRequest(pathFmt string, args ...any) (*http.Request, er
 		return nil, err
 	}
 
+	if client.Gzip {
+		req.Header.Add("Accept-Encoding", "gzip")
+	}
+
 	return req, nil
 }
 
