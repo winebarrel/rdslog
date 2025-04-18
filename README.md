@@ -21,6 +21,7 @@ Arguments:
 
 Flags:
   -h, --help       Show help.
+      --gzip       Output as gzip.
       --version
 ```
 
