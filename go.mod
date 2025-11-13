@@ -3,7 +3,7 @@ module github.com/winebarrel/rdslog
 go 1.24.0
 
 require (
-	github.com/alecthomas/kong v1.12.1
+	github.com/alecthomas/kong v1.13.0
 	github.com/aws/aws-sdk-go-v2 v1.39.6
 	github.com/aws/aws-sdk-go-v2/config v1.31.20
 	github.com/aws/aws-sdk-go-v2/service/rds v1.108.9
