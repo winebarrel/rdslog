@@ -8,7 +8,7 @@ see [reference(archive)](https://web.archive.org/web/20171212085731/http://docs.
 
 ## Download
 
-https://github.com/kanmu/rdslog/releases/latest
+https://github.com/winebarrel/rdslog/releases/latest
 
 ## Usage
 
