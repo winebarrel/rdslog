@@ -6,7 +6,7 @@ require (
 	github.com/alecthomas/kong v1.16.0
 	github.com/aws/aws-sdk-go-v2 v1.42.1
 	github.com/aws/aws-sdk-go-v2/config v1.32.30
-	github.com/aws/aws-sdk-go-v2/service/rds v1.120.1
+	github.com/aws/aws-sdk-go-v2/service/rds v1.121.0
 )
 
 require (
